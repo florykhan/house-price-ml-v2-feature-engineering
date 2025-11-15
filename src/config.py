@@ -15,7 +15,7 @@ class Config:
     test_size: float = 0.2
     random_state: int = 42
 
-    # Gradient Descent defaults (we'll use later)
+    # Gradient Descent defaults
     learning_rate: float = 0.01
     n_iterations: int = 1000
 
