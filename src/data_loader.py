@@ -24,7 +24,7 @@ def train_test_split_data(
     config: Config,
 ) -> Tuple[pd.DataFrame, pd.DataFrame, pd.Series, pd.Series]:
     """
-    Split the DataFrame into train/test sets.
+    Split the DataFrame into train/test sets
     """
     X = df.drop(columns=[target_col])
     y = df[target_col]
