@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import numpy as np
+import matplotlib.pyplot as plt
 
 from .config import Config
 from .data_loader import load_raw_data, train_test_split_data
@@ -47,6 +48,12 @@ def main() -> None:
         X_train_scaled.to_numpy(),
         y_train.to_numpy(),
     )
+
+    plt.plot(model.loss_history)
+    plt.xlabel("Iteration")
+    plt.ylabel("Loss (MSE + Regularization)")
+    plt.title("Training Loss Curve")
+    plt.show()
 
     y_pred = model.predict(X_test_scaled.to_numpy())
 
