@@ -27,3 +27,6 @@ class Config:
     # Cross-validation
     n_splits: int = 5
 
+    # Hyperparameter Tuning
+    use_hyperparameter_tuning = False
+
