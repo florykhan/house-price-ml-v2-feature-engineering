@@ -50,8 +50,8 @@ def main() -> None:
     model = LinearRegressionGD(
         learning_rate=config.learning_rate,
         n_iterations=config.n_iterations,
-        l1_lambda=config.lambda_ if config.use_l1 else 0,
-        l2_lambda=config.lambda_ if config.use_l2 else 0,
+        l1_lambda=config.l1_lambda if config.use_l1 else 0,
+        l2_lambda=config.l2_lambda if config.use_l2 else 0,
     )
 
     model.fit(

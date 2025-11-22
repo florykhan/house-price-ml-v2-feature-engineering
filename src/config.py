@@ -22,7 +22,8 @@ class Config:
     # Regularization
     use_l2: bool = False
     use_l1: bool = False
-    lambda_: float = 0.0  # reg strength
+    l1_lambda: float = 0.0 # strength
+    l2_lambda: float = 0.0 
 
     # Cross-validation
     n_splits: int = 5
