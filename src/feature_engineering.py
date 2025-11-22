@@ -5,13 +5,14 @@ import numpy as np
 
 def apply_feature_engineering(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Placeholder for feature engineering.
-    For now, just returns the dataframe untouched.
+    Feature engineering module.
 
-    Later we will:
-    - add ratios (rooms per household, etc.)
-    - log transforms
+    Applies a series of transformations to enhance model performance, including:
+    - ratio features (e.g., rooms per household, bedrooms per room)
+    - log transformations for skewed numerical features
+    - one-hot encoding for categorical variables
     - polynomial features
+    - standard preprocessing utilities for ML pipelines
     """
     df = df.copy()
 
