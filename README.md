@@ -13,3 +13,6 @@
 
 
 python3 -m src.train
+
+
+in the next project combine hyperparameter tuning with cv 🔥
