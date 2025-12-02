@@ -16,3 +16,27 @@ python3 -m src.train
 
 
 in the next project combine hyperparameter tuning with cv 🔥
+
+---
+
+## 🧠 Tech Stack
+
+- **Language:** Python 3.11  
+- **Core Libraries:**  
+  - `pandas`, `numpy`, `matplotlib`  
+  - `scikit-learn`  
+- **Environment:** Jupyter Notebook / VS Code  
+- **Version Control:** Git + GitHub (SSH configured)
+
+---
+
+## 🧾 License
+MIT License — feel free to use and modify with attribution.
+See the [`LICENSE`](./LICENSE) file for full details.
+
+---
+
+## 👤 Author
+**Ilian Khankhalaev**  
+_BSc Computing Science, Simon Fraser University_  
+📍 Vancouver, BC  |  [florykhan@gmail.com](mailto:florykhan@gmail.com)  |  [GitHub](https://github.com/florykhan)  |  [LinkedIn](https://www.linkedin.com/in/ilian-khankhalaev/)
