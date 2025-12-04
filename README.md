@@ -154,27 +154,12 @@ Recommended order:
 
 ## 📊 Results (Summary)
 
-<table>
-<tr>
-<td>
-  
 ### Custom Gradient Descent Regressor
 - Converged in ~1500 iterations
 - Test RMSE: ~74.6K USD
 - Test R²: ~0.57
-  
-</td>
-<td style="vertical-align: top; padding-left: 25px;">
-
-- The model explains ~60 % of variance in housing prices.
-- Captures strong linear trends (e.g., income vs. price) but misses nonlinear and interaction effects.
-  
-</td>
-</tr>
-</table>
 
 ➡️ For full model comparisons (Ridge, Lasso, CV results, etc.), see the full report: [`reports/report.md`](reports/report.md)
-
 
 ---
 
