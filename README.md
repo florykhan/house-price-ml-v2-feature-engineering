@@ -166,13 +166,14 @@ Recommended order:
 
 Do NOT put full tables — those belong in the report. -> Ket takeaways (1-2 bullets)
 
-8. Link to full report
+---
 
-Link to report.md:
+## 📄 Full Technical Report
 
-For the full technical explanation, see report.md
+For the complete technical write-up - including model comparisons, cross-validation results, feature engineering details, and a full discussion of Version 2 improvements — see: [`reports/report.md`](reports/report.md)
+This document contains all deep-level explanations intended for reviewers who want to understand the full methodology behind the pipeline, models, experiments, and results.
 
-This is where you point anyone who wants deep detail.
+---
 
 9. Future Work
 in the next project combine hyperparameter tuning with cv 🔥
