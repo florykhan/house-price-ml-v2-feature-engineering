@@ -18,6 +18,20 @@ This version focuses on **engineering best practices**, enabling experimentation
 
 ---
 
+## 🔄 What’s New in v2 (Compared to v1)
+
+A quick overview of improvements introduced in Version 2:
+
+| Aspect | v1 Baseline | v2 Enhanced Pipeline |
+|--------|-------------|----------------------|
+| Feature Engineering | Minimal | Full transformations + scaling |
+| Models | OLS only | GD (custom), OLS, Ridge, Lasso |
+| Cross-Validation | No | Yes — 5-fold |
+| Pipeline | Notebook-only | Modular Python pipeline (`src/`) |
+| Performance | Higher RMSE | Lower RMSE after FE + regularization |
+
+---
+
 ## ✨ Key Features
 
 - **Modular ML pipeline** (`src/` folder) for clean separation of preprocessing, training, evaluation, and utilities.
