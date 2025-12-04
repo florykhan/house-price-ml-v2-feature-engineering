@@ -170,8 +170,7 @@ Do NOT put full tables — those belong in the report. -> Ket takeaways (1-2 bul
 
 ## 📄 Full Technical Report
 
-For the complete technical write-up - including model comparisons, cross-validation results, feature engineering details, and a full discussion of Version 2 improvements — see: [`reports/report.md`](reports/report.md)
-This document contains all deep-level explanations intended for reviewers who want to understand the full methodology behind the pipeline, models, experiments, and results.
+For the complete technical write-up — including model comparisons, cross-validation results, feature engineering details, and a full discussion of Version 2 improvements — see: [`reports/report.md`](reports/report.md). This document contains all deep-level explanations intended for reviewers who want to understand the full methodology behind the pipeline, models, experiments, and results.
 
 ---
 
