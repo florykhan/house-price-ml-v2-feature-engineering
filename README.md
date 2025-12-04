@@ -125,6 +125,14 @@ Place `housing.csv` inside the `data/raw/` folder:
 ```bash
 house-price-ml-v2/data/raw/housing.csv
 ```
+> 📥 **Download the dataset:**  
+> - Via scikit-learn:  
+>   ```python
+>   from sklearn.datasets import fetch_california_housing
+>   data = fetch_california_housing(as_frame=True)
+>   ```
+> - Or download the CSV from [Kaggle](https://www.kaggle.com/datasets/camnugent/california-housing-prices)
+>
 > ⚠️ **Note:**  Processed data is not saved in this project. All transformations are applied dynamically through the pipeline.
 
 ### 5️⃣ Run the training pipeline (required before running notebooks)
