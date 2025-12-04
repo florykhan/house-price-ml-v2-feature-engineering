@@ -99,32 +99,55 @@ house-price-ml-v2/
 
 ---
 
-5. Installation
+## 🧰 Run Locally
 
-Just the commands:
+You can run this project on your machine using **Python 3.11** and `venv`.
 
-pip install -r requirements.txt
+### 1️⃣ Clone the repository
+```bash
+git clone git@github.com:florykhan/house-price-ml-v2.git
+cd house-price-ml-v2
+```
 
-6. How to Run
+### 2️⃣ Create and activate a virtual environment
+```bash
+python3 -m venv venv
+source venv/bin/activate      # macOS/Linux
+venv\Scripts\activate         # Windows
+```
+### 3️⃣ Install dependencies
+```bash
+pip3 install -r requirements.txt
+```
 
-Example:
+### 4️⃣ Add the dataset
+Place `housing.csv` inside the `data/` folder:
+```bash
+house-price-ml-v2/data/housing.csv
+```
+> ⚠️ **Note:**  Processed data is not saved in this project. All transformations are applied dynamically through the pipeline.
 
-Run the full training pipeline 
+### 5️⃣ Run the training pipeline (required before running notebooks)
+This step is essential — the training pipeline performs all preprocessing, feature engineering, and model training needed for the notebooks to run correctly.
+
+```bash
 python3 -m src.train
-OR
-python -m src.training_pipeline
+```
 
-Open the notebooks
+### 6️⃣ Run the notebooks
+Launch Jupyter and open the notebooks:
+```bash
+jupyter notebook
+```
 
-01 — Feature Engineering
+Recommended order:
+- `01_exploration.ipynb` — data exploration
+- `02_model_evaluation.ipynb` — custom Gradient Descent
+- `03_sklearn_baseline.ipynb` — sklearn LinearRegression
+- `04_cross_validation.ipynb` — OLS/Ridge/Lasso CV comparison
+- `05_pipeline_demo.ipynb` — full end-to-end pipeline demo
 
-02 — Experimental Models
-
-03 — Gradient Descent
-
-04 — Cross-Validation
-
-05 — Training Demo
+---
 
 ## 📈 Results (Summary)
 
