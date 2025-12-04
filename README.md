@@ -173,26 +173,19 @@ This is where you point anyone who wants deep detail.
 
 9. Future Work
 in the next project combine hyperparameter tuning with cv 🔥
-
-10. Tech Stack
-
-Python
-
-scikit-learn
-
-NumPy
-
-Matplotlib / Seaborn
-
-Jupyter
+---
 
 ## 🧠 Tech Stack
 
 - **Language:** Python 3.11  
 - **Core Libraries:**  
   - `pandas`, `numpy`, `matplotlib`  
-  - `scikit-learn`  
-- **Environment:** Jupyter Notebook / VS Code  
+  - `scikit-learn`
+- **Custom Components:**  
+  - Custom Gradient Descent Regressor  
+  - Reusable feature engineering, evaluation, and tuning modules (`src/` folder)
+  - End-to-end training pipeline (`python3 -m src.train`)
+- **Environment:** Jupyter Notebook / VS Code
 - **Version Control:** Git + GitHub (SSH configured)
 
 ---
