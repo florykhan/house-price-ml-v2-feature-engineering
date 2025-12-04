@@ -170,8 +170,28 @@ For the complete technical write-up — including model comparisons, cross-valid
 
 ---
 
-9. Future Work
-in the next project combine hyperparameter tuning with cv 🔥
+## 🚀 Future Directions (Beyond This Project)
+
+Although Version 2 concludes the development of this repository, there are several **advanced directions** worth exploring in future machine learning projects:
+
+- **Combine hyperparameter tuning with cross-validation**  
+  Use integrated approaches like `GridSearchCV` or `RandomizedSearchCV` to avoid data leakage and optimize models more systematically.
+
+- **Explore nonlinear models**  
+  Tree-based models (Random Forest, XGBoost), polynomial regression, and kernel methods can capture complex relationships missed by linear models.
+
+- **Build more modular and reusable ML tooling**  
+  Expand this project’s structure into a general-purpose ML pipeline framework usable across multiple datasets.
+
+- **Add experiment tracking**  
+  Use MLflow or Weights & Biases to log metrics, save artifacts, compare runs, and manage the training lifecycle.
+
+- **Improve production readiness**  
+  Add model APIs (FastAPI/Flask), Docker containers, simple CI/CD workflows, or model versioning for deployment-focused practice.
+
+- **Work with more complex datasets**  
+  Move into NLP, image processing, or time-series problems to broaden your portfolio and ML expertise.
+
 ---
 
 ## 🧠 Tech Stack
