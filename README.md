@@ -99,6 +99,12 @@ house-price-ml-v2/
 You can run this project on your machine using **Python 3.11** and `venv`.
 
 ### 1️⃣ Clone the repository
+**HTTPS (recommended for most users):**
+```bash
+git clone https://github.com/florykhan/house-price-ml-v2.git
+cd house-price-ml-v2
+```
+**SSH (for users who have SSH keys configured):**
 ```bash
 git clone git@github.com:florykhan/house-price-ml-v2.git
 cd house-price-ml-v2
