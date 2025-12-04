@@ -121,9 +121,9 @@ pip3 install -r requirements.txt
 ```
 
 ### 4️⃣ Add the dataset
-Place `housing.csv` inside the `data/` folder:
+Place `housing.csv` inside the `data/raw/` folder:
 ```bash
-house-price-ml-v2/data/housing.csv
+house-price-ml-v2/data/raw/housing.csv
 ```
 > ⚠️ **Note:**  Processed data is not saved in this project. All transformations are applied dynamically through the pipeline.
 
